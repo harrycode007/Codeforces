@@ -9,7 +9,7 @@ import java.util.*;
 		if(n > 0)
 		scan.nextLine();
 		
-		HashMap<String,String> hm = new HashMap<>();
+		HashMap<String , String> hm = new HashMap<>();
 		hm.put("purple","Power");
 		hm.put("green","Time");
 		hm.put("blue","Space");
@@ -17,7 +17,7 @@ import java.util.*;
 		hm.put("red","Reality");
 		hm.put("yellow","Mind");
 		
-		for(int i=0; i<n; i++) {
+		for(int i = 0 ; i < n ; i++) {
 		    String key = scan.nextLine();
 		    String temp = hm.get(key);
 		    if(temp != null) {
