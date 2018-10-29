@@ -13,6 +13,8 @@ public class CodeForces {
  
       for ( int i = length - 1; i >= 0; i-- )
          reverse = reverse + original.charAt(i);
+    
+         #reverse+=original.charAt(i);
  
       if (!original.equals(reverse))
          System.out.println(original.length());
@@ -23,5 +25,6 @@ public class CodeForces {
       else 
          System.out.println(original.length()-1);
  
+    in.close();
    }
 }	
