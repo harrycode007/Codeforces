@@ -9,9 +9,9 @@ public class Codechef
 	{
 		Scanner scan = new Scanner(System.in);
 		int w = scan.nextInt();
-		if(w ==2 || w % 2 ==1)
-		System.out.println("NO");
-		else if(w % 2 == 0)
+		if(w %2 == 0 && w==2)
 		System.out.println("YES");
+		else 
+		System.out.println("NO");
 	}
 }
